@@ -3,10 +3,98 @@ body {
     font-family: 'Karla', sans-serif;
     margin: 0;
     background-color: #1B1B1B;
+    background-image: url(images/bg.png);
+    background-repeat: repeat;
 }
 
 .container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
     width: 550px;
     height: 550px;
     background-color: #ECFDF5;
+}
+
+.header {
+    padding-left: 52px;
+    padding-top: 80px;
+}
+
+h1 {
+    font-family: 'Karla';
+    font-weight: bolder;
+    font-size: 50px;
+    line-height: 40px;
+    letter-spacing: -0.05em;
+    color: #2B283A;
+}
+
+#green-text {
+    color: #10B981;
+}
+
+h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #6B7280;
+    margin-top: -20px;
+    margin-left: 2px;
+}
+
+#generate-password {
+    margin-left: 52px;
+    margin-top: 5px;
+    width: 191px;
+    height: 42px;
+    border: none;
+    font-size: 18px;
+    color: aliceblue;
+    
+    background: #10B981;
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.line {
+    border: 1px solid #D5D4D8;
+    width: 446px;
+    margin-left: 52px;
+    margin-top: 20px;
+}
+
+.container3 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 446px;
+    justify-content: space-between;
+}
+
+.rectangle1 {
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+p {
+    color: #5DEF92;
+}
+
+.rectangle2 {
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    text-align: center;
+    padding-bottom: 10px;
 }
