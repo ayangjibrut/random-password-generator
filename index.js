@@ -6,6 +6,8 @@ let passwordOne = document.getElementById("pwd1")
 let passwordTwo = document.getElementById("pwd2")
 let btn = document.getElementById("btn")
 
+let allCharacters = characters
+
 btn.addEventListener("click",() => {
     passwordOne.textContent = generateRandomPassword()
     passwordTwo.textContent = generateRandomPassword()
