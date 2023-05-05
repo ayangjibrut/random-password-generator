@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -5,6 +6,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Random Password Generator</title>
     </head>
     <body>
         <div class="container">
@@ -13,19 +18,18 @@
                 <h2>Never use an insecure password again.</h2>
             </div>
             <div class="container2">
-                <button id="generate-password" onclick="getRandomCharacter()">Generate passwords</button>
+                <button id="btn" onclick="generateRandomPassword()">Generate passwords</button>
                 <div class="line"></div>
             </div>
             <div class="container3">
                 <div class="rectangle1">
-                    <p id="PasswordOne"></p>
+                    <p id="pwd1">Password One</p>
                 </div>
                 <div class="rectangle2">
-                    <p id="generatedPasswordTwo">AjhdbjsQUY&^</p>
+                    <p id="pwd2">Password Two</p>
                 </div>
             </div>
         </div>
-        <h1></h1>
         <script src="index.js"></script>
     </body>
 </html>

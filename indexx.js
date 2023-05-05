@@ -2,14 +2,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "/"];
 
 let passwordLength = 12
-let passwordOne = document.getElementById("pwd1")
-let passwordTwo = document.getElementById("pwd2")
-let btn = document.getElementById("btn")
-
-btn.addEventListener("click",() => {
-    passwordOne.textContent = generateRandomPassword()
-    passwordTwo.textContent = generateRandomPassword()
-})
+let PasswordOne = document.getElementById("message-el")
 
 function getRandomCharacter() {
     let randomChar = Math.floor(Math.random() * characters.length)
@@ -19,7 +12,7 @@ function getRandomCharacter() {
 function generateRandomPassword() {
     let randomPassword = ""
     for (let i = 0; i < passwordLength; i++) {
-        randomPassword += getRandomCharacter()
+        randomPassword += getRandomCharacter()         
     }
     return randomPassword
 }
@@ -27,3 +20,4 @@ function generateRandomPassword() {
 const generatedPasswordOne = generateRandomPassword()
 
 console.log("Here is a random password: ", generatedPasswordOne)
+
